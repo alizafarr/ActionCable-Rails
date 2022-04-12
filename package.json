@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@rails/activestorage": "^6.1.5",
+    "@rails/ujs": "^6.1.5",
+    "@rails/webpacker": "3.5",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "react_ujs": "^2.6.1",
+    "turbolinks": "^5.2.0"
+  },
+  "name": "yes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "alizafarr <ali.zafar@gigalabs.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}

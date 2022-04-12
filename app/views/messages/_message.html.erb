@@ -1,0 +1,11 @@
+<div id="<%= dom_id message %>">
+  <p>
+    <strong></strong>
+    <%= message.content %>
+  </p>
+
+  <% if message.avatar.attached? %>
+    <%= image_tag url_for(message.avatar), class: "image" %>
+  <% end %>
+    
+</div>
