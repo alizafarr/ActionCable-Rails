@@ -15,3 +15,4 @@ class SendmessageJob < ApplicationJob
     ActionCable.server.broadcast "room_channel_#{message.room_id}", {mine: mine, theirs: theirs, message: message}
   end
 end
+
